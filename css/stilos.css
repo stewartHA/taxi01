@@ -1,0 +1,143 @@
+/*menu*/
+.menuCSS3 ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menuCSS3 a{
+    display: block;
+    padding: 2em;
+    background-color: #ffe815;
+    text-decoration: none;
+    color: #204ddf;
+}
+.menuCSS3 a:hover 
+{
+    background-color: #000000;
+
+}
+.menuCSS3 ul li ul{
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover
+{
+    display: block;
+}
+
+
+/* baner*/
+
+
+
+.taxi{
+
+	width: 380px;
+    height: 310px;
+
+
+}
+
+ .hoo{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-family: 'Edu VIC WA NT Beginner';
+	font-size: 20px;
+	margin-top: 7px;
+	text-align: center;
+}
+
+/*centrar banner*/
+.container1{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+/*centrar banner*/
+
+/*separar banner*/
+.container1 .responsive-banner{
+    width: 380px;
+    height: 400px;
+    border-radius: 8px;
+    
+    overflow: hidden;
+    margin: 15px;
+    text-align: center;
+    
+	background-image: linear-gradient(to bottom right, #fce14a, #eee8ec);
+
+}
+/*separar banner*/
+
+/*centrar barra*/
+#servicios .menuCSS3{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 400px;
+	justify-content: flex-start;
+}
+ 
+/*tipo de letra para nosotros*/
+p{
+    font-size: 20px;
+  
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+
+/*para darle fondo a la pagina*/
+body
+{
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/b/be/CATEDRAL_DE_PIURA_-_PIURA.jpg");
+    background-position: center center;	  
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1
+{
+    color: rgb(0, 0, 0);
+    font-family: Verdana;
+    font-size: 45px;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+
+}
+ 
+.nosotros{
+    width: 300 px;
+    height: 300px;
+    margin: 25px;
+}
+.hola{
+    text-align: center;
+}
+
+.datos{
+    color: #000000;
+}
+.jj{
+	border-spacing: 50px;
+}
+.hello{
+	width: 50px;
+    height: 50px;
+	
+}
+
+.linea{
+    color: #ff0e0e;
+}
+.titulos{
+    font-size: 30px;
+  
+    color: rgba(255, 0, 0, 0.918);
+}
